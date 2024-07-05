@@ -76,3 +76,74 @@ html, body{
 #nav>h2:nth-last-child(2){
     width: 24%;
 }
+
+#center{
+    height: 84.3%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 3vw 6vw;
+    position: relative;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#content>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* background-color: rebeccapurple; */
+    padding: 3vw;
+}
+
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 3vw;
+}
+
+#over1>h1{
+    font-family: "Monument";
+    font-size: 3.6vw;
+}
+
+#over1>h2{
+    font-size: 1vw;
+    padding: 2.1vw 2.2vw;
+    /* background-color: blue;  */
+    border-radius: 50%;
+    border: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    padding: 1.5vw 0;
+}
+
+#over2>h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #fff;
+}
+
+#over2>img{
+    height: 3vw;
+}
