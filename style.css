@@ -2,11 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Questrial";
 }
 
 html, body{
     height: 100%;
     width: 100%;
+}
+
+@font-face {
+    font-family: Monument;
+    src: url(MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: Monument;
+    font-weight: bold;
+    src: url(MonumentExtended-Ultrabold.otf);
 }
 
 #main{
@@ -21,7 +33,46 @@ html, body{
     margin-top: 2vw;
     height: 12vh;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     border-top:2px solid #000;
     border-bottom:2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav>h1{
+    /* background-color: blue; */
+    height: 100%;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Monument";
+    font-weight: bold;
+    font-size: 2.9vw;
+    letter-spacing: -3px;
+}
+
+#nav>h2{
+    /* background-color: blue; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+#nav>h2:nth-last-child(1) {
+    width: 15%;
+    /* background-color: red; */
+    padding-right: 8vw;
+    font-size: 1.9vw;
+}
+
+#nav>h2:nth-last-child(2){
+    width: 24%;
 }
