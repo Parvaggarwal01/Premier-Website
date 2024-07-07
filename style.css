@@ -1,198 +1,257 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Questrial";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Questrial";
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
-}
-
-@font-face {
-    font-family: Monument;
-    src: url(MonumentExtended-Regular.otf);
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 @font-face {
-    font-family: Monument;
-    font-weight: bold;
-    src: url(MonumentExtended-Ultrabold.otf);
+  font-family: Monument;
+  src: url(MonumentExtended-Regular.otf);
 }
 
-#main{
-    height: 100%;
-    width: 100%;
-    background-color: #F8F8F8;
-    position: relative;
-    padding-top: 1px;
+@font-face {
+  font-family: Monument;
+  font-weight: bold;
+  src: url(MonumentExtended-Ultrabold.otf);
 }
 
-#nav{
-    margin-top: 2vw;
-    height: 12vh;
-    width: 100%;
-    /* background-color: red; */
-    border-top:2px solid #000;
-    border-bottom:2px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  padding-top: 1px;
 }
 
-#nav>h1{
-    /* background-color: blue; */
-    height: 100%;
-    width: 18%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Monument";
-    font-weight: bold;
-    font-size: 2.9vw;
-    letter-spacing: -3px;
+#nav {
+  margin-top: 2vw;
+  height: 12vh;
+  width: 100%;
+  /* background-color: red; */
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#nav>h2{
-    /* background-color: blue; */
-    height: 100%;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 2px solid black;
-    font-size: 1.5vw;
-    font-weight: 900;
+#nav > h1 {
+  /* background-color: blue; */
+  height: 100%;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monument";
+  font-weight: bold;
+  font-size: 2.9vw;
+  letter-spacing: -3px;
 }
 
-#nav>h2:nth-last-child(1) {
-    width: 15%;
-    /* background-color: red; */
-    padding-right: 8vw;
-    font-size: 1.9vw;
+#nav > h2 {
+  /* background-color: blue; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid black;
+  font-size: 1.5vw;
+  font-weight: 900;
 }
 
-#nav>h2:nth-last-child(2){
-    width: 24%;
+#nav > h2:nth-last-child(1) {
+  width: 15%;
+  /* background-color: red; */
+  padding-right: 8vw;
+  font-size: 1.9vw;
 }
 
-#center{
-    height: 84.3%;
-    width: 100%;
-    /* background-color: red; */
-    padding: 3vw 6vw;
-    position: relative;
+#nav > h2:nth-last-child(2) {
+  width: 24%;
 }
 
-#content{
-    height: 100%;
-    width: 100%;
-    /* background-color: blue; */
-    position: relative;
+#center {
+  height: 84.3%;
+  width: 100%;
+  /* background-color: red; */
+  padding: 3vw 6vw;
+  position: relative;
 }
 
-#content>video{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+#content {
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+  position: relative;
 }
 
-#overlay{
-    height: 55%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    /* background-color: rgba(0, 0, 0, 0.24); */
-    /* box-shadow: 10px;     */
-    padding: 3vw;
+#content > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-#over1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    margin-bottom: 3vw;
+#overlay {
+  height: 55%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.24); */
+  /* box-shadow: 10px;     */
+  padding: 3vw;
 }
 
-#over1>h1{
-    font-family: "Monument";
-    font-size: 3.6vw;
+#over1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 3vw;
 }
 
-#over1>h2{
-    font-size: 1vw;
-    padding: 2.1vw 2.2vw;
-    /* background-color: blue;  */
-    border-radius: 50%;
-    border: 1px solid #fff;
-    border-bottom: 2px solid #fff;
+#over1 > h1 {
+  font-family: "Monument";
+  font-size: 3.6vw;
 }
 
-
-#over2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 2px solid #fff;
-    padding: 1.5vw 0;
+#over1 > h2 {
+  font-size: 1vw;
+  padding: 2.1vw 2.2vw;
+  /* background-color: blue;  */
+  border-radius: 50%;
+  border: 1px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
-#over2>h4{
-    font-size: 1.3vw;
-    font-weight: 500;
-    color: #fff;
+#over2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #fff;
+  padding: 1.5vw 0;
 }
 
-#over2>img{
-    height: 3vw;
+#over2 > h4 {
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: #fff;
 }
 
-#scroll{
-    height: 30vh;
-    width: 100%;
-    background-color:#F8F8F8;
-    white-space: nowrap;
-    overflow-x: hidden;
-    overflow-y: hidden;  
+#over2 > img {
+  height: 3vw;
 }
 
-#scroll img{
-    /* display: none; */
-    height: 63%;
-    width: 9%;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: top;
-    margin: 2vw;
-    margin-top: 3vw;
+#scroll {
+  height: 30vh;
+  width: 100%;
+  background-color: #f8f8f8;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-#scroll img:nth-last-child(1){
-    object-position: right;
+#scroll img {
+  /* display: none; */
+  height: 63%;
+  width: 9%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin: 2vw;
+  margin-top: 3vw;
 }
 
-#scroll img:nth-last-child(8){
-    object-position: right;
+#scroll img:nth-last-child(1) {
+  object-position: right;
 }
 
-#container{
-    height: 100%;
-    width: 115%;
-    /* background-color: blue; */
-    display: inline-block;
-    animation-name: anime;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+#scroll img:nth-last-child(8) {
+  object-position: right;
+}
+
+#container {
+  height: 100%;
+  width: 115%;
+  /* background-color: blue; */
+  display: inline-block;
+  animation-name: anime;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes anime {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#alphabets {
+  height: 11vh;
+  width: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#alphabets > h5 {
+  font-size: 1.7vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  border-bottom: 2px solid #000;
+  margin-right: 2vw;
+}
+#alphabets > h6 {
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  /* border-bottom: 2px solid #000; */
+  padding: 0.3vw 0.4vw;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: all ease 0.2s;
+}
+
+#alphabets > h6:hover {
+  border: 2px solid black;
+}
+
+#page2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+}
+
+#page2-part1 {
+  height: 100%;
+  width: 50%;
+  background-image: url(https://images.unsplash.com/photo-1711894904366-4f6f7e8affea?q=80&w=2570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+#page2-part2 {
+  height: 100%;
+  width: 46%;
 }
