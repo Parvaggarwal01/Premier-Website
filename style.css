@@ -103,7 +103,8 @@ html, body{
     width: 100%;
     position: absolute;
     bottom: 0;
-    /* background-color: rebeccapurple; */
+    /* background-color: rgba(0, 0, 0, 0.24); */
+    /* box-shadow: 10px;     */
     padding: 3vw;
 }
 
@@ -146,4 +147,52 @@ html, body{
 
 #over2>img{
     height: 3vw;
+}
+
+#scroll{
+    height: 30vh;
+    width: 100%;
+    background-color:#F8F8F8;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;  
+}
+
+#scroll img{
+    /* display: none; */
+    height: 63%;
+    width: 9%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin: 2vw;
+    margin-top: 3vw;
+}
+
+#scroll img:nth-last-child(1){
+    object-position: right;
+}
+
+#scroll img:nth-last-child(8){
+    object-position: right;
+}
+
+#container{
+    height: 100%;
+    width: 115%;
+    /* background-color: blue; */
+    display: inline-block;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
