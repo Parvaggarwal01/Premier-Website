@@ -11,6 +11,10 @@ body {
   width: 100%;
 }
 
+body{
+  background-color: #f8f8f8;
+}
+
 @font-face {
   font-family: Monument;
   src: url(MonumentExtended-Regular.otf);
@@ -393,5 +397,86 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+#page5{
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+  padding: 5vw 4vw;
+}
+
+#page5>h1{
+  text-align: center;
+  font-family: "Monument";
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 600;
+  margin-bottom: 11vh;
+}
+
+.elem{
+  height: 15vh;
+  width: 100%;
+  /* background-color: red; */
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2VW;
+  position: relative;
+}
+
+.elem>img{
+  height: 15vh;
+  width: 10vw;
+  position: absolute;
+  border-radius: 50%;
+  left: 10%;
+  opacity: 0;
+  transition: all ease 0.7s;
+  object-fit: cover;
+}
+
+.elem:nth-last-child(3) img{
+  left: 40%;
+}
+
+.elem:nth-last-child(1) img{
+  left: 40%;
+}
+
+.elem-part2{
+  width: 45%;
+}
+
+.elem-part2>h1{
+  font-size: 2.7vw;
+  font-weight: 500;
+  letter-spacing: -.1vw;
+}
+
+.elem-part2>h5{
+  font-size: 0.8vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.elem>h4{
+  font-size: 1.1vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 6%;
+  padding-bottom: 2vw;
+}
+
+.elem:nth-last-child(1){
+  border-bottom: 2px solid black;
+}
+
+.elem:hover img{
+  opacity: 1;
+  left: 25%;
 }
 
