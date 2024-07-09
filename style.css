@@ -577,3 +577,16 @@ body {
   background-size: cover;
   background-position: 0 20%;
 }
+
+#page7 {
+  height: 90vh;
+  width: 100%;
+  padding: 6vw;
+}
+
+#page7 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
