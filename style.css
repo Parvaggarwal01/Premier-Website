@@ -663,6 +663,7 @@ body {
   height: 30vh;
   display: flex;
   justify-content: space-between;
+  padding-top: 0vw;
 }
 
 #page8 #right .content h5 {
@@ -1031,6 +1032,46 @@ body {
 
   #page7 {
     height: 25vh;
+  }
+
+  #page8 {
+    height: 31vh;
+  }
+  
+  #page8 #left img {
+    height: 25vh;
+  }
+  
+  #page8 #left h3 {
+    font-size: 2.7vw;
+  }
+  
+  #page8 #right img {
+    height: 15vh;
+  }
+  
+  #page8 #right .content {
+    padding-top: 6vw;
+  }
+  
+  #page8 #right .content h5 {
+    font-size: 1.7vw;
+  }
+  
+  #page8 #right .content h6 {
+    font-size: 1.2vw;
+    font-weight: 900;
+  }
+
+  #marque {
+    padding: 2vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  #marque > h1 {
+    font-size: 5vw;
+    -webkit-text-stroke: .5px black;
   }
   
 }
