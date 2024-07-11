@@ -925,5 +925,29 @@ body {
     font-size: 1.4vw;
   }
 
+  #page2 {
+    height: 45vh;
+  }
   
+  #page2-part1 > img {
+    height: 40vh;
+  }
+  
+  #page2-part1 > h1 {
+    font-size: 4vw;
+  }
+
+  
+  #page2-part2 > img {
+    height: 83%;
+  }
+  
+  #text1 > h1 {
+    font-size: 1.7vw;
+    line-height: 1.9vw;
+  }
+  
+  #text2 > p {
+    font-size: 1.2vw;
+  }
 }
