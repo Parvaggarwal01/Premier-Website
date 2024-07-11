@@ -1028,5 +1028,9 @@ body {
   #right-top > p {
     font-size: 1.1vw;
   }
+
+  #page7 {
+    height: 25vh;
+  }
   
 }
