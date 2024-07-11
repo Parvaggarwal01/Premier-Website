@@ -928,25 +928,24 @@ body {
   #page2 {
     height: 45vh;
   }
-  
+
   #page2-part1 > img {
     height: 40vh;
   }
-  
+
   #page2-part1 > h1 {
     font-size: 4vw;
   }
 
-  
   #page2-part2 > img {
     height: 83%;
   }
-  
+
   #text1 > h1 {
     font-size: 1.7vw;
     line-height: 1.9vw;
   }
-  
+
   #text2 > p {
     font-size: 1.2vw;
   }
@@ -954,27 +953,27 @@ body {
   #page3 {
     height: 30vh;
   }
-  
+
   #page3-left {
     width: 46%;
   }
-  
+
   #page3-left > h3 {
     font-size: 2vw;
   }
-  
+
   #images {
     height: 30vh;
   }
-  
+
   #img1 {
     height: 50%;
   }
-  
+
   #img2 {
     height: 20%;
   }
-  
+
   #page3-right {
     width: 50%;
   }
@@ -982,7 +981,35 @@ body {
   #page4 {
     height: 25vh;
   }
-  
-  
-  
+
+  #page5 {
+    height: 50%;
+  }
+
+  #page5 > h1 {
+    font-size: 7vw;
+    margin-bottom: 4vh;
+  }
+
+  .elem {
+    height: 7vh;
+  }
+
+  .elem > img {
+    height: 7vh;
+    width: 13vw;
+  }
+
+  .elem-part2 > h1 {
+    font-size: 3.7vw;
+  }
+
+  .elem-part2 > h5 {
+    font-size: 2vw;
+  }
+
+  .elem > h4 {
+    font-size: 2vw;
+  }
+
 }
