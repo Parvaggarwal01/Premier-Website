@@ -811,7 +811,7 @@ body {
   width: 100%;
   font-size: 1.5vw;
   border-bottom: 2px solid black;
-  padding: 2vw;
+  padding: 1vw;
   text-align: center;
   font-weight: 200;
 }
@@ -1115,6 +1115,33 @@ body {
   #con::after{
     content: "\a";
     white-space: pre;
+  }
+
+  #footer {
+    height: 15vh;
+  }
+  
+  #footer-inside > h1 {
+    font-size: 4.5vw;
+  }
+  
+  #footer-inside > h2:nth-child(2) {
+    width: 15%;
+    font-size: 2.4vw;
+  }
+  
+  #footer-inside > h2:nth-child(3) {
+    width: 23%;
+    font-size:  2.4vw;
+  }
+  
+  #footer-inside div h2 {
+    font-size: 2.4vw;
+  }
+  
+  #footer-inside div p {
+    padding-top: 1vw;
+    font-size: 1.2vw;
   }
   
 }
