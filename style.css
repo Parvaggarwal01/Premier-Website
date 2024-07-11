@@ -1065,13 +1065,56 @@ body {
 
   #marque {
     padding: 2vw;
+    margin-top: 6vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
   
   #marque > h1 {
-    font-size: 5vw;
+    font-size: 6vw;
     -webkit-text-stroke: .5px black;
+  }
+
+  #page9 {
+    height: 80vh;
+    padding: 0 6vw;
+  }
+  
+  #page9-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #page9-inside > h1 {
+    font-size: 7vw;
+    font-family: "Monument";
+  }
+  
+  #blog {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #blog > p {
+    /* width: 50%; */
+    font-size: 3vw;
+    text-align: center;
+  }
+  
+  #blog > p > span {
+    font-family: "Monument";
+    font-size: 3vw;
+    border: 0px solid black;
+    font-weight: bolder;
+  }
+  #con::after{
+    content: "\a";
+    white-space: pre;
   }
   
 }
