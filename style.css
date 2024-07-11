@@ -950,4 +950,33 @@ body {
   #text2 > p {
     font-size: 1.2vw;
   }
+
+  #page3 {
+    height: 30vh;
+  }
+  
+  #page3-left {
+    width: 46%;
+  }
+  
+  #page3-left > h3 {
+    font-size: 2vw;
+  }
+  
+  #images {
+    height: 30vh;
+  }
+  
+  #img1 {
+    height: 50%;
+  }
+  
+  #img2 {
+    height: 20%;
+  }
+  
+  #page3-right {
+    width: 50%;
+  }
+  
 }
